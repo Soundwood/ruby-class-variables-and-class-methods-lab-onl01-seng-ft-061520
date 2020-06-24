@@ -25,8 +25,9 @@ class Song
   def self.artist_count
     artist_count_hash = {}
     @@artists.each do |artist|
+      binding.pry
       if artist_count_hash[artist] == nil 
-        artist_count_hash[artist] = 5 
+        artist_count_hash[artist] = 1  
       else
         artist_count_hash[artist] << 1 
       end
