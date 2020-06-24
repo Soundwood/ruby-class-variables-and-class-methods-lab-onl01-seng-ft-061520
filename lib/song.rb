@@ -28,7 +28,7 @@ class Song
       if artist_count_hash[artist] == nil 
         artist_count_hash[artist] = 1 
       else
-        artist_count_hash[artist] += 1 
+        artist_count_hash[artist] = (artist_count_hash[artist]) + 1 
       end
     return artist_count_hash
     end
