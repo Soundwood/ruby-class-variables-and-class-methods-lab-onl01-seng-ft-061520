@@ -33,8 +33,8 @@ class Song
       else
         artist_count_hash[artist] = 1 
       end
-    return artist_count_hash
     end
+    return artist_count_hash
   end
   def self.genre_count
    # genre_count_hash = {}
