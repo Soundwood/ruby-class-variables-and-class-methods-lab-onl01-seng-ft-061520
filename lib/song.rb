@@ -28,14 +28,18 @@ class Song
     artist_count_hash = {}
     @@artists.each do |artist|
       binding.pry 
-      if artist_count_hash[artist] == nil 
+      if artist_count_hash.key?(artist) 
         artist_count_hash[artist] = 1  
       else
-        artist_count_hash[artist] << 1 
+        artist_count_hash[artist] += 1 
       end
     return artist_count_hash
     end
   end
   def self.genre_count
+    genre_count_hash = {}
+    @@genres.each do |genre|
+      if genre_count_hash[genre] == nil 
+        
   end
 end
