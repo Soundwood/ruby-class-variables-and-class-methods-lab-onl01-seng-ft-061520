@@ -37,9 +37,9 @@ class Song
     end
   end
   def self.genre_count
-    genre_count_hash = {}
-    @@genres.each do |genre|
-      if genre_count_hash[genre] == nil 
+   # genre_count_hash = {}
+    #@@genres.each do |genre|
+     # if genre_count_hash[genre] == nil 
         
   end
 end
