@@ -29,7 +29,7 @@ class Song
     @@artists.each do |artist|
       binding.pry 
       if artist_count_hash.key?(artist) 
-        artist_count_hash[artist] = 5  
+        artist_count_hash[artist] += 1   
       else
         artist_count_hash[artist] = 1 
       end
