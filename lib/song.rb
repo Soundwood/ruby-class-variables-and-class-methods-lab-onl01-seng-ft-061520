@@ -31,7 +31,7 @@ class Song
       if artist_count_hash.key?(artist) 
         artist_count_hash[artist] = 1  
       else
-        artist_count_hash[artist] += 1 
+        artist_count_hash[artist] = 5 
       end
     return artist_count_hash
     end
